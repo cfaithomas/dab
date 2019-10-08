@@ -21,6 +21,15 @@ void menuDab() {
     printf("2-Voir le solde des comptes\n");
     printf("3-Quitter\n");
     scanf("%d\n",&saisie);
+    switch (saisie)
+    {
+        case 1:
+            //debiter
+        case 2:
+            //voir les soldes
+        case 3:
+         return;
+    }
 }
 
 int testSup(int n1, int n2) {
